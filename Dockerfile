@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.16
 RUN apk add git && \
     apk add openjdk11 && \
     apk add maven
