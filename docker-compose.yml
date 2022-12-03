@@ -11,7 +11,7 @@ services:
   web:
     depends_on:
       - war
-    image: tomcat
+    image: tomcat:9.0.0.M10-jre8-alpine
     volumes:
       - "data:/usr/local/tomcat/webapps/"
     ports:
